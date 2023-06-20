@@ -1,0 +1,41 @@
+{
+    "name": "snakeee",
+    "short_name": "snakeee",
+    "start_url": "/snake.html",
+    "display": "standalone",
+    "background_color": "#ffdfd3a2",
+    "theme_color": "#FFDFD3",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/icons/snake_48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/icons/snake_72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/icons/snake_96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/icons/snake_144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/icons/snake_192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icons/snake_1024.png",
+            "type": "image/png",
+            "sizes": "1024x1024"
+        }
+    ]
+}

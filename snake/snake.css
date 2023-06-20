@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffdfd3a2;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#gameDiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+#scoreText {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    color: cadetblue;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+canvas {
+     margin: auto;
+     padding: 0;
+     background-color: #FFDFD3;
+ }
+
+ #playControlsDiv {
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+
+#playControlsDiv div {
+    margin: auto;
+}
+
+#playControlsDiv div button {
+    background-color: #A2E4B8;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15vw;
+    border: white solid 1px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    width: 8vh;
+    height: 8vh;
+    margin: 0 5vw 0;
+}
+
+i {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    pointer-events: none;
+}
+
+#buttonDiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1000;
+}
+
+#buttonDiv button {
+    width: 20vw;
+    max-width: 180px;
+    min-width: 130px;
+    height: 7vh;
+    margin: auto;
+    margin-top: 32vh;
+    display: block;
+    background-color:cadetblue;
+    border: white solid 1px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color: white;
+}

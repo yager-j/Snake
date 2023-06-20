@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Snake</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="snake.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <!-- Game div -->
+       <div id="gameDiv">
+
+        <!-- Score text -->
+          <p id="scoreText">0</p>
+          <!-- Game canvas -->
+          <canvas id="gameCanvas"></canvas>
+          <!-- Play controls -->
+          <div id="playControlsDiv">
+            <div id="upDiv"><button id="upButton"><i class="fa fa-arrow-up"></i></button></div>
+            <div id="leftRightDiv">
+                <button id="leftButton"><i class="fa fa-arrow-left"></i></button>
+                <button id="rightButton"><i class="fa fa-arrow-right"></i></button>
+            </div>
+            <div id="downDiv"><button id="downButton"><i class="fa fa-arrow-down"></i></button></div>
+          </div>
+        </div>
+    
+        <!-- Play button div -->
+       <div id="buttonDiv">
+            <button id="playButton">PLAY SNAKE!</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+    <script src="snake.js"></script>
+</body>
+</html>
